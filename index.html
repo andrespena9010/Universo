@@ -9,22 +9,23 @@
 </head>
 <body>
     <header>
-        <h1>Explora el Universo</h1>
-        <p>Por Exploradores del Cosmos</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="galaxias.html">Galaxias</a></li>
-                <li><a href="misiones.html">Misiones Espaciales</a></li>
-            </ul>
+        <div>
+            <h1 class="txtCentrado">Explora el Universo</h1>
+            <p class="txtCentrado sinMargen">Por Exploradores del Cosmos</p>
+        </div>
+        <nav class="menu" >
+            <a class="btnLink" href="index.html">Inicio</a>
+            <a class="btnLink" href="galaxias.html">Galaxias</a>
+            <a class="btnLink" href="misiones.html">Misiones Espaciales</a>
         </nav>
     </header>
 
     <main>
+        <img src="media/fondo.png" alt="Fondo Espacial" class="fondo">
         <section>
             <h2>Bienvenido al Universo</h2>
             <p>El espacio es vasto, misterioso y lleno de maravillas. Te invitamos a conocer más sobre galaxias, planetas y exploraciones espaciales.</p>
-            <p><mark>Acompáñanos</mark> en este fascinante viaje entre las estrellas.</p>
+            <p>Acompáñanos en este fascinante viaje entre las estrellas.</p>
         </section>
 
         <section>
@@ -42,11 +43,17 @@
                 <source src="media/universo.mp4" type="video/mp4">
                 Tu navegador no soporta este video.
             </video>
+        </section>
+
+        <section>
             <p>Escucha una composición inspirada en el universo:</p>
             <audio controls>
                 <source src="media/universo.mp3" type="audio/mp3">
                 Tu navegador no soporta este audio.
             </audio>
+        </section>
+
+        <section>
             <p>Aquí tienes una imagen de la Galaxia sombrero:</p>
             <img src="media/galaxiaSombrero.jpeg" alt="Galaxia Sombrero">
         </section>
@@ -102,8 +109,8 @@
     </main>
 
     <footer>
-        <p>© 2025 Explora el Universo</p>
-        <p><a href="https://www.nasa.gov/">Visita NASA</a></p>
+        <p class="pFlex"><a class="btnLink" href="https://www.nasa.gov/">Visita NASA</a></p>
+        <p class="txtCentrado">© 2025 Explora el Universo</p>
     </footer>
 </body>
 </html>
