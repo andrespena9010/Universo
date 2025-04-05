@@ -2,10 +2,10 @@
 
 @media (max-height: 640px) {
   body {
-    overflow-y: auto;
+    overflow-y: auto !important;
   }
   main {
-    overflow-y: unset;
+    overflow-y: unset !important;
   }
 }
 
