@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-@media (max-height: 640px) {
-  body {
-    overflow-y: auto !important;
-  }
-  main {
-    overflow-y: unset !important;
-  }
-}
-
 * {
     box-sizing: border-box;
 }
@@ -35,11 +26,6 @@ h1 {
     font-family: Audiowide, serif;
 }
 
-h1.txtCentrado{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 nav.menu {
     display: flex;
     margin: 1rem;
@@ -63,10 +49,6 @@ section {
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 1rem;
-}
-
-.table {
-  overflow-x: auto;
 }
 
 
