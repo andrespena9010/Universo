@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, serif;
+    color: #dddddd;
+    margin: 0;
+    padding: 0;
+    background: #05050F;
+    height: 100vh;
+}
+
+header {
+    background: black;
+    width: 100%;
+    box-shadow: 0 0 2rem #aaa;
+    z-index: 0;
+}
+
+h1 {
+    font-family: Audiowide, serif;
+}
+
+nav.menu {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background: rgb(100, 100, 100, 0.1);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+footer {
+    background: #000000;
+    width: 100%;
+    box-shadow: 0 0 2rem #aaa;
+}
+
+ol, ul, dl {
+    padding-left: 1.5rem;
+}
+
+ol {
+    list-style: decimal;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+ul {
+    list-style: square;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+dl {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+dt {
+    font-weight: bold;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-top: 0.8rem;
+}
+
+dd {
+    margin-left: 1rem;
+    color: lightgray;
+}
+
+blockquote {
+    font-style: italic;
+    color: #aaa;
+    border-left: 5px solid #0077cc;
+    background-color: rgb(192, 192, 192, 0.2);
+    margin: 1rem 0;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: 400px;
+    margin: 2rem;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+th {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 1rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    text-align: left;
+}
+
+td {
+    padding: 1rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ddd;
+    text-transform: uppercase;
+}
+
+.fondo {
+    display: none;
+}
+
+a:visited.btnLink {
+    color: #dddddd;
+}
+
+.txtCentrado {
+    text-align: center;
+}
+
+.sinMargen {
+    margin: 0;
+}
+
+.pFlex {
+    display: flex;
+    justify-content: center;
+}
+
+a.btnLink {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+    text-decoration: none;
+    box-shadow: 0 0 1rem white;
+    background: transparent;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    width: 30%;
+}
