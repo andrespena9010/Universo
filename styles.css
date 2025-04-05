@@ -35,6 +35,11 @@ h1 {
     font-family: Audiowide, serif;
 }
 
+h1 .txtCentrado{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 nav.menu {
     display: flex;
     margin: 1rem;
