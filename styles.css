@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+@media (max-height: 640px) {
+  body {
+    overflow-y: auto;
+  }
+}
+
 * {
     box-sizing: border-box;
 }
