@@ -59,11 +59,14 @@ main {
 section {
     display: flex;
     flex-direction: column;
-    overflow-x: auto;
     background: rgb(100, 100, 100, 0.1);
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 1rem;
+}
+
+.table {
+  overflow-x: auto;
 }
 
 
